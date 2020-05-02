@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formulario {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-content: center;
+  padding: 4rem;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.form_label {
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.form_input {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #DBDBDB;
+  color: #DBDBDB;
+}
+
+.label_check {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  width: 8rem;
+  height: 2.5rem;
+  color: white;
+  font-size: 1rem;
+  background-color: #00D1B2;
+  border-bottom: none;
+  border-style: none;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #00c487;
+}
+
+.btn:active {
+  background-color: #00B89C;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.main_container {
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: #EBD0D3;
+}
+
+img {
+  width: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */

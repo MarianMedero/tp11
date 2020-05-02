@@ -1,0 +1,42 @@
+.formulario{
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  background-color: white;
+  align-content: center;
+  padding: 4rem;
+  font-size: 1rem;
+
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.form_label{
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.form_input{
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid $default-border-color;
+  color: $default-border-color;
+}
+
+.label_check{
+ padding-top: 1rem;
+ padding-bottom: 1rem; 
+ text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}

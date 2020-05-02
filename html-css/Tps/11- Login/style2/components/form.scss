@@ -1,0 +1,44 @@
+.form_container{
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  background-color: white;
+  align-content: center;
+  padding: 4rem;
+  font-size: 1rem;
+
+}
+
+
+.form_label{
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.form_input{
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid $default-border-color;
+  color: $default-border-color;
+}
+
+a{
+  color: $link-color;
+  text-decoration: none;
+}
+
+.form_label::placeholder{
+  color: $default-border-color;
+}
+
+input:invalid{
+  color: $invalid-border-color;
+  border-color: $invalid-border-color;
+}
+
+input:valid{
+  color: $valid-border-color;
+}
+input:hover{
+  border-color: $focus-border-color;
+}
